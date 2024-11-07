@@ -1,0 +1,37 @@
+name = "EconomicModels"
+uuid = "16217605-afd6-45c8-af7e-ea16fbeb32dd"
+authors = ["Isaac Leeson <isaacleeson@proton.me> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
+EconomicSolvers = "31ccbb7a-98a5-4ae5-8d78-42f34a259f65"
+ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Underscores = "d9a01c3f-67ce-4d8c-9b55-35f6e4050bb1"
+
+[compat]
+CommonSolve = "0.2.4"
+EconomicSolvers = "1.0.0"
+ITensors = "0.7.1"
+Interpolations = "0.15.1"
+Krylov = "0.9.8"
+LinearSolve = "2.36.2"
+Parameters = "0.12.3"
+SciMLOperators = "0.3.12"
+SparseArrays = "1.11.0"
+StaticArrays = "1.9.8"
+Underscores = "3.0.0"
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
